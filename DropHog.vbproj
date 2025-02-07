@@ -7,7 +7,7 @@
     <OutputType>Exe</OutputType>
     <StartupObject>
     </StartupObject>
-    <RootNamespace>HedgeRoll</RootNamespace>
+    <RootNamespace>DropHog</RootNamespace>
     <AssemblyName>ConsoleApplication</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Console</MyType>
