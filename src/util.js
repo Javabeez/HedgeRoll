@@ -1,5 +1,9 @@
 /** Global Parameters Object */
-const params = { };
+const PARAMS = {
+    DEBUG: false,
+    SCALE: 1,
+    BITWIDTH: 16
+};
 
 /**
  * @param {Number} n

@@ -3,15 +3,54 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Game Project Title Goes Here</title>
-  
+    <title>Hedge Roll</title>
+
     <script type="text/javascript" src="./src/assetmanager.js"></script>
     <script type="text/javascript" src="./src/timer.js"></script>
     <script type="text/javascript" src="./src/gameengine.js"></script>
     <script type="text/javascript" src="./src/util.js"></script>
+    <script type="text/javascript" src="./src/animator.js"></script>
+    <script type="text/javascript" src="./src/boundingbox.js"></script>
+    <script type="text/javascript" src="./src/base.js"></script>
+    <script type="text/javascript" src="./src/hog.js"></script>
     <script type="text/javascript" src="./src/main.js"></script>
 </head>
-<body>
+<body style="background-color:black; color:white; font-family:Roboto;">
     <canvas id="gameWorld" width="1024" height="768" style="background: white; border: 1px solid black" tabindex="0" autofocus></canvas>
+
+    <div>
+        <br />
+        <input type="checkbox" id="debug"> Debug
+    </div>
+    
+    <p style="color:gold; font-size:20px">
+        HEDGE ROLL - By Javabeez :3<br />
+    </p>
+    <p>
+        <strong>____CONTROLS____</strong><br />
+        * Space = Jump<br />
+        * Space(hold) = Longer Jump<br />
+        * Space(midair) = Dive<br />
+        <br />
+        <strong>____TO BE ADDED____</strong><br />
+        * moving obstacles L->R (touch = die)<br />
+        * HUD showing progress / distance travelled<br />
+        * start button (maybe space to start) / play again button<br />
+        * frames for states<br />
+        * animation gotta go fast<br />
+        <br />
+    </p>
+    <p>
+        <strong>____More about the game____</strong><br />
+        Like Geometry Dash, the hedgehog stays fixed on the x-axis<br />
+        and jumps to get over or under obstacles. The hedgehog also<br />
+        explodes into oblivion upon side collision with a wall.<br />
+        The dive mechanic is inspired by Sonic's homing attack.<br />
+        (Rated E for Everyone.)<br />
+    </p>
+    <p>
+        <strong>____Notes____</strong><br />
+        Most of the progress so far has been focused on mechanics.<br />
+    </p>
 </body>
 </html>
